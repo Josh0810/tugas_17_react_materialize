@@ -30,7 +30,7 @@ function App() {
         }}
         trigger={
           <Button className="black" node="button">
-            Side Nav
+            <Icon>menu</Icon>
           </Button>
         }
       >
@@ -73,6 +73,7 @@ function App() {
           Fashion Wanita
         </SideNavItem>
       </SideNav>
+      <br />
       <div>
         <Slider
           fullscreen={false}
